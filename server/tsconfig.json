@@ -1,0 +1,9 @@
+// This file is needed for each subpackage to add custom paths
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@somePath": ["./test.ts"]
+    }
+  }
+}
